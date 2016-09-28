@@ -1,0 +1,15 @@
+
+#user_input {
+	text-align: center;
+	//display: inline-block;
+}
+
+#input_field {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#help_button {
+	display: inline-block;
+	vertical-align: middle;
+}
