@@ -8,10 +8,12 @@
 
 
 <div id="user_input">
-	<div id="sample"></div>
-	<textarea id="input_field" rows="4" cols="50">kutyu</textarea>
-	<button id="help_button" onclick="flash('fasza2');">Help</button>
+	<img id="task_image" style="width:300px;height:200px;"/>
+	<div id="sample_label"></div>
+	<textarea id="input_field" onkeypress="input_field_key_pressed(event, this)" rows="4" cols="50"></textarea>
+	<!-- <textarea id="input_field" rows="4" cols="50"></textarea> -->
+	<button id="help_button" onclick="show_sample();">Help</button>
+	<button id="ok_button" onclick="check_task();">OK</button>
 <div>
-end
 </body>
 </html>

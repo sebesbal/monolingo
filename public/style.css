@@ -1,6 +1,12 @@
 
+#sample_label {
+	vertical-align: left;
+	//display: inline-block;
+}
+
 #user_input {
-	text-align: center;
+	vertical-align: middle;
+	//text-align: center;
 	//display: inline-block;
 }
 
